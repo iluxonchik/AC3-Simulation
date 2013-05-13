@@ -13,3 +13,11 @@ function getRad(degrees:Number):Number; //converts degrees to radians. Takes a d
 function getPe(m:Number , g:Number , h:Number):Number; //returns the value of Potential Energy. Takes three arguments.
 
 ```
+
+Below is an example of how to use the "getRad" function.
+```ActionScript
+//value of angle in degrees
+Number degreevalue = 35;
+//convert that angle from degrees to radian and store it in variable "radianvalue"
+Number radianvalue = getRad(degreevalue);
+```
