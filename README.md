@@ -19,5 +19,5 @@ Below is an example of how to use the "getRad" function.
 //value of angle in degrees
 Number degreevalue = 35;
 //convert that angle from degrees to radian and store it in variable "radianvalue"
-Number radianvalue = getRad(degreevalue);
+radianvalue:Number = getRad(degreevalue);
 ```
