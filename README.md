@@ -17,7 +17,7 @@ function getPe(m:Number , g:Number , h:Number):Number; //returns the value of Po
 Below is an example of how to use the "getRad" function.
 ```ActionScript
 //value of angle in degrees
-Number degreevalue = 35;
+var degreevalue:Number = 35;
 //convert that angle from degrees to radian and store it in variable "radianvalue"
-radianvalue:Number = getRad(degreevalue);
+var radianvalue:Number = getRad(degreevalue);
 ```
