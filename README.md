@@ -9,8 +9,9 @@ Functions Explanation
 ```ActionScript
 
 function getKe(m:Number , v:Number):Number; // retuns the value of Kinetic Energy. Takes two arguments(two Numbers).
-function getRad(degrees:Number):Number; //converts degrees to radians. Takes a degree value as an argument. Returns the radian value
+function getRad(degrees:Number):Number; //converts degrees to radians. Takes a degree value as an argument. Returns the radian value.
 function getPe(m:Number , g:Number , h:Number):Number; //returns the value of Potential Energy. Takes three arguments.
+
 
 ```
 
@@ -21,3 +22,4 @@ var degreevalue:Number = 35;
 //convert that angle from degrees to radian and store it in variable "radianvalue"
 var radianvalue:Number = getRad(degreevalue);
 ```
+getRad(); is also a public method is the "base" class.
