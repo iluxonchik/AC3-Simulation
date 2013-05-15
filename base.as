@@ -1,5 +1,4 @@
-﻿
-package  {
+﻿package  {
 	
 	import flash.display.Shape;
 	
@@ -9,7 +8,7 @@ package  {
 	//angle value in degrees
 	public var angle:Number = 70;
 	
-	public var B:PointB = new PointB();
+	public var B:PointXY = new PointXY();
 	
 	
 	//convert degree to radian
@@ -19,7 +18,7 @@ package  {
 }
 	
 	//calculate B coordinates
-	public function calcB(B:PointB, angle:Number, d:Number):PointB {
+	public function calcB(B:PointXY, angle:Number, d:Number):PointXY {
 		var radangle = getRad(angle);
 		B.xval = Math.cos(radangle) * d;
 		B.yval = Math.sin(radangle) * d;
