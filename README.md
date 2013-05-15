@@ -1,4 +1,4 @@
-AC3-Simulation
+AS3-Simulation
 ==============
 
 Action Script 3 Simulation
@@ -23,3 +23,19 @@ var degreevalue:Number = 35;
 var radianvalue:Number = getRad(degreevalue);
 ```
 getRad(); is also a public method is the "base" class.
+
+
+
+
+**### Drawing The Base ###**
+
+To draw the base (triangle), the following function can be called:
+```ActionScript
+//draw the triangle
+function drawTriangle(A:PointXY,B:PointXY):PointXY;
+/*
+NOTE: The function above will return the coordinates of point B,
+which will probably be used in other calculations, so they have to
+be stored in a "PointXY" object.
+*/
+```
