@@ -35,4 +35,4 @@ NOTE: The function above will return the coordinates of point B,
 which will probably be used in other calculations, so they have to
 be stored in a "PointXY" object.
 */
-´´´
+```
