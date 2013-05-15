@@ -4,7 +4,7 @@
 	
 	 public class base extends Shape {
 	//trajectory length
-	public var d:Number = 100;
+	public var d:Number = 500;
 	//angle value in degrees
 	public var angle:Number = 20;
 	

@@ -7,8 +7,8 @@
 	
 		public function PointXY() {
 			//coordinates for the iniial point of line d
-			xval = 0;
-			yval = 0;
+			xval = 20;
+			yval = 20;
 		}
 
 	}
