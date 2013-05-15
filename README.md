@@ -25,7 +25,9 @@ var radianvalue:Number = getRad(degreevalue);
 getRad(); is also a public method is the "base" class.
 
 
-**Drawing The Base**
+
+
+**### Drawing The Base ###**
 
 To draw the base (triangle), the following function can be called:
 ```ActionScript
