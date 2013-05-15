@@ -26,6 +26,7 @@ getRad(); is also a public method is the "base" class.
 
 
 **Drawing The Base**
+
 To draw the base (triangle), the following function can be called:
 ```ActionScript
 //draw the triangle
