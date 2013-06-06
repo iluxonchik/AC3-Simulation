@@ -6,7 +6,7 @@
 	//trajectory length
 	public var d:Number = 500;
 	//angle value in degrees
-	public var angle:Number = 20;
+	public var angle:Number = 89;
 	
 	public var B:PointXY = new PointXY();
 	
@@ -18,10 +18,10 @@
 }
 	
 	//calculate B coordinates
-	public function calcB(B:PointXY, angle:Number, d:Number):PointXY {
+	public function calcB(B:PointXY, angle:Number, d:Number, A:PointXY):PointXY {
 		var radangle = getRad(angle);
-		B.xval = Math.cos(radangle) * d;
-		B.yval = Math.sin(radangle) * d;
+		B.xval = Math.cos(radangle) * d + A.xval;
+		B.yval = Math.sin(radangle) * d + A.yval;
 		return B;
 	}
 	
