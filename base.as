@@ -6,7 +6,7 @@
 	//trajectory length
 	public var d:Number = 500;
 	//angle value in degrees
-	public var angle:Number = 89;
+	public var angle:Number = 87;
 	
 	public var B:PointXY = new PointXY();
 	
